@@ -1,6 +1,6 @@
 ---
 rpip: <to be assigned>
-title: Rocket Pool University (GMC-GA022310) Grant Request Appeal
+title: Rocket Pool University Grant Request Appeal
 description: This vote is to appeal the rejection of GMC grant request GA022310, Rocket Pool University.
 author: Dr Doofus (@DrDoofus-MD-PhD-DDS)
 discussions-to: <URL>
