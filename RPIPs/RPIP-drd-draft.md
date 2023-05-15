@@ -23,7 +23,7 @@ This RPIP is an appeal to reverse the "no" vote on Grant GA022310, Rocket Pool U
 
 This appeal of the GMC decision, a "no" with request to re-file in the next round, is for the following reasons:
 1. The stated reason, that the project might be too similar to another group's project (which is NOT being funded by GMC), indicates a misunderstanding of the two projects.
-2. GMC should not defer to another groups' potential projects.
+2. GMC should not defer to other groups' potential projects.
 3. GMC should encourage outreach and educational projects in earnest.
 4. This appeal lowers the request amount, potentially making it more in line with GMC budget.
 
@@ -50,11 +50,11 @@ Appeal Grounds Expanded
 
    Rocket Pool University courses can certainly contain images, videos and graphics, but it is a primarily text based reading/testing framework with certification (likely in the form of POAPs) for overall concepts within the Rocket Pool ecosystem. The website is a framework to easily allow classes to be created by anyone on any topic. For example, discord support certification or explanations of how to find and use various links and resources, i.e. information that might be useful to return to to reference in text based format.
 
-   As for content, the included and initial course, Basics of Rocket Pool, is not meant to replace the official documentation, it is an overview of the documentation; an easily digestible "quick start" version written from the ground up to give a different perspective on what parts are needed for novices to garner a quick but encompassing vision of the protocol. NOT, a quick understanding of how to set up a node or minipool. In many cases, it references the docs and via the quiz teaches students how to reference them themselves.
+   As for content, the included and initial course, Basics of Rocket Pool, is not meant to replace the official documentation, it is an overview of the documentation; an easily digestible "quick start" version written from the ground up to give a different perspective on what parts are needed for novices to garner a quick but encompassing vision of the protocol, not a quick understanding of how to set up a node or minipool. In many cases, it references the docs and via the quiz teaches students how to reference them themselves.
 
 2. GMC should not defer to other group's potential projects.
  
-   I believe the GMC should be proactive in the funding and encouragement of community projects and not reactive to other groups prospective projects. I am aware that Rocket Pool's EVMavericks are an influential subset of Rocket Pool and perhaps the GMC, so I understand that they are possibly an exception to this rule. Nevertheless, I feel it should be, in general, part of the mindset of the GMC to seekout more outreach anticipating success rather than limit outreach by questioning if it might not reach enough people or potentially mildly duplicate efforts.
+   I believe the GMC should be proactive in the funding and encouragement of community projects and not reactive to other groups' prospective projects. I am aware that Rocket Pool's EVMavericks are an influential subset of Rocket Pool and perhaps the GMC, so I understand that they are possibly an exception to this rule. Nevertheless, I feel it should be, in general, part of the mindset of the GMC to seekout more outreach anticipating success.
 
 3. GMC should encourage outreach and educational projects in earnest.
  
@@ -66,17 +66,18 @@ Appeal Grounds Expanded
  
    The original request was priced in line with what I would charge, in general, for this type of project. Having participated in many grant requests throughout the years, they are all different and unique beasts. Grants are odd in that you are asking someone to pay you for something they didn't ask for and if they did would likely not have requested it via the method you are proposing.
 
-In light of this and because I want to do this project in the hopes it benefits the community (not just for the grant money). I am significantly lowering my proposal.
+   In light of this and because I want to do this project in the hopes it benefits the community (not just for the grant money). I am significantly lowering my proposal.
 
-Task: Website Framework
-Request: $5400 (120 RPL @$45)
-Comment: Although this is a large amount of work, I also understand that it is not a critical feature for the protocol, thus rate is not what I would normally ask.
+   Task: Website Framework
+   Request: $5400 (120 RPL @$45)
+   Comment: Although this is a large amount of work, I also understand that it is not a critical feature for the protocol, thus rate is not what I would normally ask.
 
-Task: Basics of Rocket Pool course
-Request: $900 (20 RPL @ $45)
-Comment: The course will consist of roughly seven lessons with subsections and seven quizzes of roughly ten questions each.
+   Task: Basics of Rocket Pool course
+   Request: $900 (20 RPL @ $45)
+   Comment: The course will consist of roughly seven lessons with subsections and seven quizzes of roughly ten questions each.
 
-Total: $6300 (140 RPL @ $45)
+   Total: $6300 (140 RPL @ $45)
+ 
 
 ## Backwards Compatibility
 Not an issue for this RPIP
