@@ -5,7 +5,7 @@ description: This vote is to appeal the rejection of GMC grant request GA022310,
 author: Dr Doofus (@DrDoofus-MD-PhD-DDS)
 discussions-to: <URL>
 status: Draft
-type: <Protocol, Meta, or Informational>
+type: Meta
 category (*only required for Protocol ):
 created: 2023-05-15
 requires (*optional):
