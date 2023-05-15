@@ -46,7 +46,7 @@ Appeal Grounds Expanded
 
 1. The stated reason, that the project is potentially too similar to another group's project (which is NOT being funded by GMC), indicates a misunderstanding of the two projects.
 
-The EVMaverick's project, https://therocketschool.xyz, is a potential video tutorial series on specific implementations of the Rocket Pool protocol. For example, "How to set up a node". This content is very valuable but has no overlap with Rocket Pool University. RPU could host a video tutorial series, but it is probably overkill and not the ideal format for such a presentation. 
+   The EVMaverick's project, https://therocketschool.xyz, is a potential video tutorial series on specific implementations of the Rocket Pool protocol. For example, "How to set up a node". This content is very valuable but has no overlap with Rocket Pool University. RPU could host a video tutorial series, but it is probably overkill and not the ideal format for such a presentation. 
 
 Rocket Pool University courses can certainly contain images, videos and graphics, but it is a primarily text based reading/testing framework with certification (likely in the form of POAPs) for overall concepts within the Rocket Pool ecosystem. The website is a framework to easily allow classes to be created by anyone on any topic. For example, discord support certification or explanations of how to find and use various links and resources, i.e. information that might be useful to return to to reference in text based format.
 
