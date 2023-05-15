@@ -44,26 +44,28 @@ The complete grant request, in its entirety, is available here:
   
 Appeal Grounds Expanded
 
-1. The stated reason, that the project is too similar to another group's project (which is NOT being funded by GMC), indicates a misunderstanding of the two projects.
+1. The stated reason, that the project is potentially too similar to another group's project (which is NOT being funded by GMC), indicates a misunderstanding of the two projects.
 
-The EVMaverick's project is a potential video tutorial series on specific implementations of the Rocket Pool protocol. For example, "How to set up a node" or "". This content has no overlap with Rocket Pool University. RPU could host a video tutorial series, but it is probably overkill and not the ideal format for such a presentation.
+The EVMaverick's project, https://therocketschool.xyz, is a potential video tutorial series on specific implementations of the Rocket Pool protocol. For example, "How to set up a node". This content is very valuable but has no overlap with Rocket Pool University. RPU could host a video tutorial series, but it is probably overkill and not the ideal format for such a presentation. 
 
-Rocket Pool University courses can certainly contain images, videos and graphics, but it is a primarily text based reading/testing framework with certification (likely in the form of POAPs) for overall concepts within the Rocket Pool ecosystem. The website is a framework to allow easy classes to be created by anyone on any topic.
+Rocket Pool University courses can certainly contain images, videos and graphics, but it is a primarily text based reading/testing framework with certification (likely in the form of POAPs) for overall concepts within the Rocket Pool ecosystem. The website is a framework to easily allow classes to be created by anyone on any topic. For example, discords support certification or explanations of how to find and use various links and resources.
 
-As for content, the included and initial course, Basics of Rocket Pool, is not meant to replace the official documentation, it is a high level overview of the documentation; an easily digestible cliff notes version written from the ground up to give a different perspective on what parts are needed for novices to garner a quick but encompassing vision of the protocol. NOT, a quick understanding of how to set up a node or xxx. In many cases, it references the docs and via the quiz teaches students how to reference them.
+As for content, the included and initial course, Basics of Rocket Pool, is not meant to replace the official documentation, it is an overview of the documentation; an easily digestible "quick start" version written from the ground up to give a different perspective on what parts are needed for novices to garner a quick but encompassing vision of the protocol. NOT, a quick understanding of how to set up a node or minipool. In many cases, it references the docs and via the quiz teaches students how to reference them.
+ 
+ One educational website content, not officially affliated with Rocket Pool, does not need to prevent different educational resources from existing.
 
 2. GMC should not defer to other group's potential projects.
-   I believe the GMC should be proactive in the funding and encouragement of community projects and not reactive to other groups prospective projects. I am aware that EVMavericks is an influential subset of Rocket Pool and perhaps the GMC, so I understand that they are possibly an exception to this rule. Nevertheless, I feel it should be, in general, part of the thought processxxx .
+   I believe the GMC should be proactive in the funding and encouragement of community projects and not reactive to other groups prospective projects. I am aware that Rocket Pool's EVMavericks are an influential subset of Rocket Pool and perhaps the GMC, so I understand that they are possibly an exception to this rule. Nevertheless, I feel it should be, in general, part of the mindset of the GMC to seekout more outreach anticipating success rather than limit outreach by questioning if it might not reach enough people or potentially mildly duplicate efforts.
 
 3. GMC should encourage outreach and educational projects in earnest.
-   It is important to offer several variants of education on the protocol, since people learn via many different methods. Expanding and encouraging alternatives is a tried and true teaching method in modern education. Furthermore, much of the language used in a large scale projects, like RP, tends to repeat obscure phrases and buzzwords that are confusing to newcomers and, all too often, much of the existing community. Different wordings and summaries can open up minds to concepts previously not fully grasped. This is something we should strive to, not try to avoid.
+   It is important to offer several variants of education on the protocol, since people learn via many different methods. Expanding and encouraging alternatives is a tried and true teaching method in modern education. Furthermore, much of the language used in a large scale projects, like RP, tends to repeat obscure phrases and buzzwords that are confusing to newcomers and, all too often, much of the existing community. Different wordings and summaries can open up minds to concepts previously not fully grasped. This is something we should strive towards, not try to avoid.
 
-   Knowing the GMC funds will be spent, encourages the community to create and innovate. If GMC grant funding seems unachievable, the opposite effect will prevail.
+   In addition, the GMC is sitting on unused funds. Knowing the GMC funds will be spent, encourages the community to create and innovate. If GMC grant funding seems unachievable, the opposite effect will prevail. In fact, this framework will allow others to easily put their content online for GMC funding without reinventing the wheel. 
 
 4. This appeal lowers the request amount, potentially making it more in line with GMC budget.
-   The original project was priced in line with what I would charge an entity who requested this type of project. Having participated in many grants as a scientist, they are all different and unique beasts. Grants are odd in that you are asking someone to pay you for something they didn't ask for and if they did would likely not have requested it via the method you are proposing.
+   The original request was priced in line with what I would charge, in general, for this type of project. Having participated in many grant requests throughout the years, they are all different and unique beasts. Grants are odd in that you are asking someone to pay you for something they didn't ask for and if they did would likely not have requested it via the method you are proposing.
 
-In light of this and because I want to do this project in the hopes it benefits the community (not just for the grant money). I am significantly lowering my proposal, but request that the GMC further negotiate in good faith if it is only an issue of the amount of funds that prevents a successful appeal.
+In light of this and because I want to do this project in the hopes it benefits the community (not just for the grant money). I am significantly lowering my proposal.
 
 Task: Website Framework
 Request: $5400 (120 RPL @$45)
