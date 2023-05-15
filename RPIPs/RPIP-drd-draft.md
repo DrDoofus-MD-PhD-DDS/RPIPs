@@ -1,19 +1,15 @@
 ---
 rpip: <to be assigned>
-title: <The RPIP title is a few words, not a complete sentence>
-description: <Description is one full (short) sentence>
-author: <a comma separated list of the author's or authors' name + GitHub username (in parenthesis), or name and email (in angle brackets).  Example, FirstName LastName (@GitHubUsername), FirstName LastName <foo@bar.com>, FirstName (@GitHubUsername) and GitHubUsername (@GitHubUsername)>
+title: Rocket Pool University (GMC-GA022310) Grant Request Appeal
+description: This vote is to appeal the rejection of GMC grant request GA022310, Rocket Pool University.
+author: Dr Doofus (@DrDoofus-MD-PhD-DDS)
 discussions-to: <URL>
 status: Draft
 type: <Protocol, Meta, or Informational>
-category (*only required for Protocol ): <Core or RPRC>
-created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
-requires (*optional): <RPIP number(s)>
+category (*only required for Protocol ):
+created: 2023-05-15
+requires (*optional):
 ---
-
-`rpip-appeal_grant_result_GA022310.md`
- 
-Appeal of the rejection of the grant request for Rocket Pool University - GA022310
 
 ## Abstract
 
@@ -28,8 +24,12 @@ This appeal of the GMC decision, a "no" with request to re-file in the next roun
 4. This appeal lowers the request amount, potentially making it more in line with GMC budget.
 
 ## Specification
+ 
+The GMC SHALL fund this request for 140 RPL upon completion of the tasks as described in GA022310. If not within the budget capabilities, the GMC MAY distribute the funds over as long as four consecutive cycles.
 
- Grant request GA022310, Rocket Pool University, covers:
+## Rationale
+ 
+Grant request GA022310, Rocket Pool University, covers:
 
     Frontend, written in NextJS 13 with TypeScript and TailwindCSS
     Wallet sign-in via rainbowkit and wagmi
@@ -37,11 +37,9 @@ This appeal of the GMC decision, a "no" with request to re-file in the next roun
     A basic “Introduction to Rocket Pool” course
     POAP Delivery mechanism for course completion (might be manual at first)
   
-The complete grant request, in its entirety, is available here: 
-  https://dao.rocketpool.net/t/april-2023-gmc-call-for-grant-applications-deadline-is-april-15th/1638/12
-  
-## Rationale
-  
+The complete grant request, in its entirety, is available here:
+https://dao.rocketpool.net/t/april-2023-gmc-call-for-grant-applications-deadline-is-april-15th/1638/12
+ 
 Appeal Grounds Expanded
 
 1. The stated reason, that the project is potentially too similar to another group's project (which is NOT being funded by GMC), indicates a misunderstanding of the two projects.
