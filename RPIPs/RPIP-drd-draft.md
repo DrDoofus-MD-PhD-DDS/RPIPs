@@ -16,35 +16,18 @@ Appeal of the Results of the Grant Proposal for Rocket Pool University - GA02231
 
 ## Abstract
 
-This appeal is to reconsider the "No" vote on Grant GA022310, Rocket Pool University (RPU). RPU is a framework for hosting Rocket Pool oriented courses along the lines of the now-defunct Ethereum Studymaster course. Courses can be created by anyone, currently in the form of specifically formatted json file(s). A user (i.e., a connected wallet), reads through the lessons in a course and takes a quiz after designated lessons within that course. The user has limited chances to pass each quiz. Passing all quizzes for a course is required to pass the course and obtain the POAP or potentially other digital certification. RPU, as specified in GMC funding request GA022310, also includes a "Basics of Rocket Pool" course designed to give a high-llevel overview of the protocol, not from a technical 
+This appeal is to reconsider the "No" vote on Grant GA022310, Rocket Pool University (RPU). RPU is a framework for hosting Rocket Pool oriented courses along the lines of the now-defunct Ethereum Studymaster course. Courses can be created by anyone, currently in the form of specifically formatted json file(s). A user (i.e., a connected wallet), reads through the lessons in a course and takes a quiz after designated lessons within that course. The user has limited chances to pass each quiz. Passing all quizzes for a course is required to obtain the POAP or potentially other digital certification. RPU, as specified in GMC funding request GA022310, also includes a "Basics of Rocket Pool" course designed to give a mid-level overview of the protocol, not from an implementation perspective, but from an academic perspective.
   
 ## Motivation
 
 This appeal of the GMC decision, a "no" with request to refile in the next round, is for the following reasons:
-1. The stated reason, that the project is too similar to another group's project (which is NOT being funded by GMC), belies a misunderstanding of the two projects.
+1. The stated reason, that the project might be too similar to another group's project (which is NOT being funded by GMC), belies a misunderstanding of the two projects.
 2. GMC should not defer to another groups' potential projects.
 3. GMC should encourage outreach and educational projects in earnest.
 4. This appeal lowers the request amount, potentially making it more in line with GMC budget.
 
-
-This grant application covers:
-
-    Frontend, written in NextJS 13 with TypeScript and TailwindCSS
-    Wallet sign-in via rainbowkit and wagmi
-    Laravel Database for user course and quiz information storage
-    A basic “Introduction to Rocket Pool” course
-    POAP Delivery mechanism for course completion (might be manual at first)
-
-
-
 ## Specification
-The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in RFC 2119.
 
-The technical specification should describe the syntax and semantics of any new feature.
-Rocket Pool University - Website for Rocket Pool related classes/tutorials
-
-What is the work being proposed?
-Development of a framework for hosting Rocket Pool oriented classes/tutorials along the lines of the now-defunct Ethereum Studymaster course. Courses can be created by anyone (but as of this application must be uploaded by either myself or potentially a select list of co-developers). A user (i.e., a connected wallet), reads through the lessons for a course and takes a quiz after designated lessons within that course. The user has limited chances to pass each quiz. Passing all quizzes for a course is required to pass the course and obtain the POAP or potentially other digital certification.
 
 This grant application covers:
 
@@ -56,7 +39,38 @@ This grant application covers:
 
   
 ## Rationale
-The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages.
+Appeal Grounds Expanded
+
+1. The stated reason, that the project is too similar to another group's project (which is NOT being funded by GMC), belies a misunderstanding of the two projects.
+
+The EVMaverick's project is a potential video tutorial series on specific implementations of the Rocket Pool protocol. For example, "How to set up a node" or "". This content has no overlap with Rocket Pool University. RPU could host a video tutorial series, but it is probably overkill and not the ideal format for such a presentation.
+
+Rocket Pool University courses can certainly contain images, videos and graphics, but it is a primarily text based reading/testing framework with certification (likely in the form of POAPs) for overall concepts within the Rocket Pool ecosystem. The website is a framework to allow easy classes to be created by anyone on any topic.
+
+As for content, the included and initial course, Basics of Rocket Pool, is not meant to replace the official documentation, it is a high level overview of the documentation; an easily digestible cliff notes version written from the ground up to give a different perspective on what parts are needed for novices to garner a quick but encompassing vision of the protocol. NOT, a quick understanding of how to set up a node or xxx. In many cases, it references the docs and via the quiz teaches students how to reference them.
+
+2. GMC should not defer to other group's potential projects.
+   I believe the GMC should be proactive in the funding and encouragement of community projects and not reactive to other groups prospective projects. I am aware that EVMavericks is an influential subset of Rocket Pool and perhaps the GMC, so I understand that they are possibly an exception to this rule. Nevertheless, I feel it should be, in general, part of the thought processxxx .
+
+3. GMC should encourage outreach and educational projects in earnest.
+   It is important to offer several variants of education on the protocol, since people learn via many different methods. Expanding and encouraging alternatives is a tried and true teaching method in modern education. Furthermore, much of the language used in a large scale projects, like RP, tends to repeat obscure phrases and buzzwords that are confusing to newcomers and, all too often, much of the existing community. Different wordings and summaries can open up minds to concepts previously not fully grasped. This is something we should strive to, not try to avoid.
+
+   Knowing the GMC funds will be spent, encourages the community to create and innovate. If GMC grant funding seems unachievable, the opposite effect will prevail.
+
+4. This appeal lowers the request amount, potentially making it more in line with GMC budget.
+   The original project was priced in line with what I would charge an entity who requested this type of project. Having participated in many grants as a scientist, they are all different and unique beasts. Grants are odd in that you are asking someone to pay you for something they didn't ask for and if they did would likely not have requested it via the method you are proposing.
+
+In light of this and because I want to do this project in the hopes it benefits the community (not just for the grant money). I am significantly lowering my proposal, but request that the GMC further negotiate in good faith if it is only an issue of the amount of funds that prevents a successful appeal.
+
+Task: Website Framework
+Request: $5400 (120 RPL @$45)
+Comment: Although this is a large amount of work, I also understand that it is not a critical feature for the protocol, thus rate is not what I would normally ask.
+
+Task: Basics of Rocket Pool course
+Request: $900 (20 RPL @ $45)
+Comment: The course will consist of roughly seven lessons with subsections and seven quizzes of roughly ten questions each.
+
+Total: $6300 (140 RPL @ $45)
 
 ## Backwards Compatibility
 Not an issue for this RPIP
