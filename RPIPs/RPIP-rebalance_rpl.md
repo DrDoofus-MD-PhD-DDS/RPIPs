@@ -85,7 +85,6 @@ oDAO (rocketClaimTrustedNode):           0.025
 ```
 
 - This change **SHOULD** be submitted via the Smartnode CLI command: `rocketpool pdao propose rewards-percentages`
-- This change **SHALL** be submitted immediately after this RPIP vote passes.
 
 #### pDAO Allocation Implementation
 
