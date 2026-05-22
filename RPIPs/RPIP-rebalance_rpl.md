@@ -4,7 +4,7 @@ title: Rebalance RPL Inflation for Protocol Funding
 description: Increase the pDAO and GMC share of RPL inflation to support protocol funding.
 author: Dr Doofus (@DrDoofus-MD-PhD-DDS)
 discussions-to:
-status: Draft
+status: Review
 type: Protocol
 category: Core
 created: 2026-05-21
