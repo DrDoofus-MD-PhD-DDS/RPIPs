@@ -8,7 +8,7 @@ status: Draft
 type: Protocol
 category: Core
 created: 2026-05-21
-requires: RPIP-10, RPIP-25, RPIP-33, RPIP-46, RPIP-69
+requires: RPIP-10, RPIP-25, RPIP-33, RPIP-46, RPIP-68, RPIP-69
 vote-to:
 vote-date:
 vote-result:
