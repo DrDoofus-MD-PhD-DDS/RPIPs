@@ -29,7 +29,7 @@ Rocket Pool currently faces a protocol funding shortfall.
 
 The decline in RPL price has greatly reduced the GMC’s funding capabilities. The GMC has already made multiple rounds of cuts to support, administration, business development/STAR, marketing and other recurring expenses. However, current funding is now not enough for basic operating costs and does not provide adequate room for upcoming protocol needs.
 
-The GMC is increasingly asked to fund or help fund items such as support, rescue node costs, business development, Chainlink costs, Saturn 2 related work, Snapshot, and other worthy initiatives. Meanwhile, pDAO funding from megapools is not yet available and it might be a long time before it is helpful at a meaningful level.
+The GMC is increasingly asked to fund or help fund items such as support, rescue node costs, business development, Chainlink costs, Saturn 2 related work, Snapshot, and other worthy initiatives. Meanwhile, pDAO funding from megapools is not yet available at meaningful scale and it might be a long time before it becomes helpful at a meaningful level.
 
 Before Saturn 2, 70% of RPL inflation is directed to Node Operator RPL rewards. When Saturn 2 takes effect, those Node Operator RPL rewards will go away entirely. This RPIP proposes a phase out of those rewards pre-Saturn 2 by redirecting part of the current Node Operator RPL issuance to pDAO protocol funding immediately, and to preserve that funding after Saturn 2.
 
@@ -98,7 +98,7 @@ Reserve Treasury = 40%
 
 ### Post-Saturn 2 RPL Inflation Allocation
 
-When Saturn 2 takes effect, Node Operator RPL issuance will still be eliminated as planned in accordance with [RPIP-46](./RPIP-46.md) and the oDAO and pDAO issuance will remain the same as the above changes dictate. This means they will still be consistent with [RPIP-46](./RPIP-46.md) as modified by [RPIP-68](./RPIP-68.md):
+When Saturn 2 takes effect, Node Operator RPL issuance will still be eliminated as planned in accordance with [RPIP-46](./RPIP-46.md) and the oDAO and pDAO issuance will remain the same as the above changes dictate. This means the post-Saturn 2 pDAO/oDAO allocation percentages remain consistent with the 95%/5% DAO split specified in [RPIP-46](./RPIP-46.md), while the absolute issuance reflects the pre-Saturn 2 oDAO share established by [RPIP-68](./RPIP-68.md):
 
 ```
 Node Operators:       0%
