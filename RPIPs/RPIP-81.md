@@ -21,7 +21,7 @@ This RPIP proposes rebalancing RPL inflation allocation to increase protocol fun
 
 Before Saturn 2, the current RPL inflation allocation sends 70% of RPL issuance to Node Operators, 27.5% to the pDAO, and 2.5% to the oDAO. This RPIP would reduce the Node Operator share to 50%, increase the pDAO share to 47.5%, and leave the oDAO share unchanged at 2.5%. This RPIP also updates the internal pDAO allocation policy to 30% IMC, 40% GMC, and 30% Reserve Treasury.
 
-When Saturn 2 takes effect, Node Operator share of RPL inflation is already set to go to zero ([RPIP-46](./RPIP-46.md)). Under the existing Saturn 2 plan, annual RPL inflation would thus fall from 5% to 1.5%. Under this RPIP, elimination of Node Operator RPL rewards will reduce inflation from 5% to 2.5%.
+When Saturn 2 takes effect, Node Operator share of RPL inflation is already set to go to zero ([RPIP-46](RPIP-46.md)). Under the existing Saturn 2 plan, annual RPL inflation would thus fall from 5% to 1.5%. Under this RPIP, elimination of Node Operator RPL rewards will reduce inflation from 5% to 2.5%.
 
 ## Motivation
 
@@ -56,7 +56,7 @@ Before Saturn 2, this RPIP makes two related changes:
    oDAO:            2.5% (unchanged)
 ```
 
-2. It changes the internal pDAO allocation policy from:
+2. It changes the internal pDAO allocation policy from ([RPIP-69](RPIP-69.md)):
 
 ```
    IMC:              50%
@@ -88,7 +88,7 @@ oDAO (rocketClaimTrustedNode):           0.025
 
 #### pDAO Allocation Implementation
 
-After the above changes are enacted, the pDAO allocation policy ([RPIP-10](./RPIP-10.md)) **SHALL** be modified and implemented as follows:
+After the above changes are enacted, the pDAO allocation policy ([RPIP-10](RPIP-10.md)) **SHALL** be modified and implemented as follows:
 
 ```
 IMC = 30%
@@ -98,7 +98,7 @@ Reserve Treasury = 30%
 
 ### Post-Saturn 2 RPL Inflation Allocation
 
-When Saturn 2 takes effect, Node Operator RPL issuance will still be eliminated as planned in accordance with [RPIP-46](./RPIP-46.md) and the oDAO and pDAO issuance will remain the same as the above changes dictate. This means the post-Saturn 2 pDAO/oDAO allocation percentages remain consistent with the 95%/5% DAO split specified in [RPIP-46](./RPIP-46.md), while the absolute issuance reflects the pre-Saturn 2 oDAO share established by [RPIP-68](./RPIP-68.md):
+When Saturn 2 takes effect, Node Operator RPL issuance will still be eliminated as planned in accordance with [RPIP-46](RPIP-46.md) and the oDAO and pDAO issuance will remain the same as the above changes dictate. This means the post-Saturn 2 pDAO/oDAO allocation percentages remain consistent with the 95%/5% DAO split specified in [RPIP-46](RPIP-46.md), while the absolute issuance reflects the pre-Saturn 2 oDAO share established by [RPIP-68](RPIP-68.md):
 
 ```
 Node Operators:       0%
@@ -112,8 +112,8 @@ However, instead of reducing annual RPL inflation from 5% to 1.5%, annual RPL in
 
 Post Saturn 2, annual RPL inflation will be changed as follows:
 
-- [RPIP-46](./RPIP-46.md) **SHALL** be amended to change RPL inflation from 1.5% to 2.5%.
-- `rpl.inflation.interval.rate` **SHALL** be set to the value corresponding to 2.5% annual inflation using the same annualization convention as [RPIP-46](./RPIP-46.md). The expected value is approximately `1000067606974065369`, subject to technical confirmation.
+- [RPIP-46](RPIP-46.md) **SHALL** be amended to change RPL inflation from 1.5% to 2.5%.
+- `rpl.inflation.interval.rate` **SHALL** be set to the value corresponding to 2.5% annual inflation using the same annualization convention as [RPIP-46](RPIP-46.md). The expected value is approximately `1000067606974065369`, subject to technical confirmation.
 
 Note that inflation can be further reduced in the future if circumstances dictate, but it might be a greater challenge to raise inflation after Saturn 2 from 1.5% if further funding is needed than to reduce it if it is not.
 
@@ -144,7 +144,7 @@ A potential concern is that reducing Node Operator RPL rewards before Saturn 2 c
 
 ### RPL value and inflation tradeoff
 
-This RPIP would result in higher post-Saturn 2 RPL inflation than currently specified in [RPIP-46](./RPIP-46.md). The existing Saturn 2 plan reduces annual RPL inflation to 1.5%; this RPIP would instead reduce it to 2.5%.
+This RPIP would result in higher post-Saturn 2 RPL inflation than currently specified in [RPIP-46](RPIP-46.md). The existing Saturn 2 plan reduces annual RPL inflation to 1.5%; this RPIP would instead reduce it to 2.5%.
 
 Higher inflation can be harmful to RPL value if the additional RPL is spent inefficiently or sold into shallow demand. This proposal accepts that risk because underfunding core protocol needs can also harm RPL value by weakening support, development, growth, and contributor retention.
 
@@ -157,7 +157,7 @@ This RPIP does not change ETH rewards, validator duties, minipool delegate behav
 The primary risks are economic, governance, and incentive risks:
 
 1. **Node Operator expectations:** Reducing Node Operator RPL issuance before Saturn 2 may be perceived as changing the expected transition for current minipool operators.
-2. **RPL value and sell pressure:** Increasing the pDAO share and preserving higher inflation than [RPIP-46](./RPIP-46.md) currently specifies, may increase sell pressure if the additional RPL is spent quickly or inefficiently.
+2. **RPL value and sell pressure:** Increasing the pDAO share and preserving higher inflation than [RPIP-46](RPIP-46.md) currently specifies, may increase sell pressure if the additional RPL is spent quickly or inefficiently.
 3. **Treasury discipline:** Larger pDAO, GMC, and Reserve Treasury inflows do not by themselves guarantee better outcomes. Poor budgeting or weak grant oversight could waste the additional issuance.
 4. **Underfunding risk:** If this RPIP does not pass and no alternative funding source is available, Rocket Pool may underfund support, operations, security related work, Saturn 2 work, contributor retention, and growth initiatives.
 
@@ -170,13 +170,13 @@ This RPIP attempts to balance those risks by:
 
 ## Governance Considerations
 
-This RPIP modifies RPL inflation allocation and therefore requires a 75% "For" supermajority under [RPIP-25](./RPIP-25.md).
+This RPIP modifies RPL inflation allocation and therefore requires a 75% "For" supermajority under [RPIP-25](RPIP-25.md).
 
 Passage of this RPIP should be treated as authorization for three related governance actions:
 
 1. A pre-Saturn 2 onchain pDAO proposal to change RPL claim percentages to 50% Node Operators, 47.5% pDAO, and 2.5% oDAO.
-2. An update to the pDAO allocation policy in [RPIP-10](./RPIP-10.md) to set IMC to 30%, GMC to 40%, and Reserve Treasury to 30%.
-3. An amendment to [RPIP-46](./RPIP-46.md) so that the Saturn 2 `rpl.inflation.interval.rate` target is 2.5% annual inflation rather than 1.5%.
+2. An update to the pDAO allocation policy in [RPIP-10](RPIP-10.md) to set IMC to 30%, GMC to 40%, and Reserve Treasury to 30%.
+3. An amendment to [RPIP-46](RPIP-46.md) so that the Saturn 2 `rpl.inflation.interval.rate` target is 2.5% annual inflation rather than 1.5%.
 
 This RPIP changes funding allocation and inflation policy. It does not approve any specific GMC grant, IMC incentive program, Reserve Treasury spend, or other individual expenditure.
 
