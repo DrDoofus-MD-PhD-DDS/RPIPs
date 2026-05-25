@@ -19,7 +19,11 @@ tags: [rpl-inflation, saturn-2, node-operator-percent, pdao-percent]
 
 This RPIP proposes rebalancing RPL inflation allocation to increase protocol funding during and after the Saturn 2 transition.
 
-Before Saturn 2, the current RPL inflation allocation sends 70% of RPL issuance to Node Operators, 27.5% to the pDAO, and 2.5% to the oDAO. This RPIP would reduce the Node Operator share to 50%, increase the pDAO share to 47.5%, and leave the oDAO share unchanged at 2.5%. This RPIP also updates the internal pDAO allocation policy to 30% IMC, 40% GMC, and 30% Reserve Treasury.
+Before Saturn 2, the current RPL inflation allocation is: Node Operators 70%, pDAO 27.5%, oDAO 2.5%. This RPIP would reduce the Node Operator share and increase pDAO share as follows: Node Operators 50%, pDAO 47.5%, oDAO 2.5% (unchanged).
+ 
+This RPIP also updates the current internal pDAO allocation ([RPIP-69](RPIP-69.md)) from: IMC 50%, GMC 25%, Reserve Treasury 25%, to IMC 30%, GMC 40%, Reserve Treasury 30%. Note that these are percentages of the new pDAO share of 47.5% rather than of the old 27.5%.
+
+This bolsters GMC RPL by about 10,000 RPL per cycle and approximately doubles reserve treasury share per cycle compared to previous allotment.
 
 When Saturn 2 takes effect, Node Operator share of RPL inflation is already set to go to zero ([RPIP-46](RPIP-46.md)). Under the existing Saturn 2 plan, annual RPL inflation would thus fall from 5% to 1.5%. Under this RPIP, elimination of Node Operator RPL rewards will reduce inflation from 5% to 2.5%.
 
@@ -33,92 +37,38 @@ The pDAO is increasingly asked to fund or help fund items such as support, rescu
 
 Before Saturn 2, 70% of RPL inflation is directed to Node Operator RPL rewards. When Saturn 2 takes effect, those Node Operator RPL rewards will go away entirely. This RPIP proposes a phase out of those rewards pre-Saturn 2 by redirecting part of the current Node Operator RPL issuance to pDAO protocol funding immediately, and to preserve that funding after Saturn 2.
 
-
 ## Specification
 
-### Pre-Saturn 2 RPL Inflation Allocation
+### Pre-Saturn 2
+- The reward percentages **SHALL** be set using the on-chain pDAO proposal system ([RPIP-33](RPIP-33.md)) to:
+  - Node Operators: 50%
+  - pDAO: 47.5%
+  - oDAO: 2.5%
+  - This may be proposed using the Smartnode CLI command: `rocketpool pdao propose rewards-percentages --node 0.5 --odao 0.025 --pdao 0.475`
+  - This on-chain proposal vote must be passed to implement the change from this vote
+- The pDAO internal allocation **SHALL** be adjusted and updated in [RPIP-10](RPIP-10.md)'s `Historical budget splits` section as follows:
+  - IMC: 30%
+  - GMC: 40%
+  - Reserve Treasury: 30%
 
-Before Saturn 2, this RPIP makes two related changes:
+### Post-Saturn 2
 
-1. It changes the RPL inflation allocation from:
-
-```
-   Node Operators: 70%
-   pDAO:           27.5%
-   oDAO:            2.5%
-```
-
-   to:
-
-```
-   Node Operators: 50%
-   pDAO:           47.5%
-   oDAO:            2.5% (unchanged)
-```
-
-2. It changes the internal pDAO allocation policy from ([RPIP-69](RPIP-69.md)):
-
-```
-   IMC:              50%
-   GMC:              25%
-   Reserve Treasury: 25%
-```
-
-   to:
-
-```
-   IMC:              30%
-   GMC:              40%
-   Reserve Treasury: 30%
-```
-
-This bolsters GMC RPL by about 10,000 RPL per cycle and approximately doubles reserve treasury share per cycle compared to previous allotment.
-
-#### RPL Inflation Allocation Implementation
-
-- These pre-Saturn 2 changes **SHALL** be implemented via the on-chain pDAO proposal system using the rewards-percentages as follows (values are given as a fraction between 0 and 1):
-
-```
-Node Operators (rocketClaimNode):        0.5
-pDAO (rocketClaimDAO):                   0.475
-oDAO (rocketClaimTrustedNode):           0.025
-```
-
-- This change **SHOULD** be submitted via the Smartnode CLI command: `rocketpool pdao propose rewards-percentages`
-
-#### pDAO Allocation Implementation
-
-After the above changes are enacted, the pDAO allocation policy ([RPIP-10](RPIP-10.md)) **SHALL** be modified and implemented as follows:
-
-```
-IMC = 30%
-GMC = 40%
-Reserve Treasury = 30%
-```
-
-### Post-Saturn 2 RPL Inflation Allocation
-
-When Saturn 2 takes effect, Node Operator RPL issuance will still be eliminated as planned in accordance with [RPIP-46](RPIP-46.md) and the oDAO and pDAO issuance will remain the same as the above changes dictate. This means the post-Saturn 2 pDAO/oDAO allocation percentages remain consistent with the 95%/5% DAO split specified in [RPIP-46](RPIP-46.md), while the absolute issuance reflects the pre-Saturn 2 oDAO share established by [RPIP-68](RPIP-68.md):
-
-```
-Node Operators:       0%
-pDAO:                 95%
-oDAO:                 5%
-```
-
-However, instead of reducing annual RPL inflation from 5% to 1.5%, annual RPL inflation will be reduced from 5% to 2.5% (simply the effect of eliminating the 50% Node Operator share).
-
-#### Post-Saturn 2 RPL Inflation Implementation
-
-Post Saturn 2, annual RPL inflation will be changed as follows:
-
-- [RPIP-46](RPIP-46.md) **SHALL** be amended to change RPL inflation from 1.5% to 2.5%.
+- The RPL inflation rate **SHALL** be set to 2.5% and updated in [RPIP-46](RPIP-46.md)
 - `rpl.inflation.interval.rate` **SHALL** be set to the value corresponding to 2.5% annual inflation using the same annualization convention as [RPIP-46](RPIP-46.md). The expected value is approximately `1000067606974065369`, subject to technical confirmation.
 
-Note that inflation can be further reduced in the future if circumstances dictate, but it might be a greater challenge to raise inflation after Saturn 2 from 1.5% if further funding is needed than to reduce it if it is not.
-
+- The reward percentages **SHALL** be set using the on-chain pDAO proposal system to:
+  - Node Operators: 0%
+  - pDAO: 95%
+  - oDAO: 5%
+  - This may be proposed using the Smartnode CLI command: `rocketpool pdao propose rewards-percentages --node 0 --odao 0.05 --pdao 0.95`
 
 ## Rationale
+
+### Note about post-Saturn 2 allocations
+
+When Saturn 2 takes effect, Node Operator RPL issuance will still be eliminated as planned in accordance with [RPIP-46](RPIP-46.md). As a result, RPL inflation will be reduced from 5% to 2.5% rather than from 5% to 1.5% (simply the effect of eliminating the 50% Node Operator share).
+
+The oDAO and pDAO issuance will remain the same as the above changes dictate. This means the post-Saturn 2 pDAO/oDAO allocation percentages remain consistent with the 95%/5% DAO split already specified in [RPIP-46](RPIP-46.md), while the absolute issuance reflects the pre-Saturn 2 oDAO share established by [RPIP-68](RPIP-68.md).
 
 ### Protocol funding need
 
@@ -174,7 +124,7 @@ This RPIP modifies RPL inflation allocation and therefore requires a 75% "For" s
 
 Passage of this RPIP should be treated as authorization for three related governance actions:
 
-1. A pre-Saturn 2 onchain pDAO proposal to change RPL claim percentages to 50% Node Operators, 47.5% pDAO, and 2.5% oDAO.
+1. A pre-Saturn 2 on-chain pDAO proposal to change RPL claim percentages to 50% Node Operators, 47.5% pDAO, and 2.5% oDAO.
 2. An update to the pDAO allocation policy in [RPIP-10](RPIP-10.md) to set IMC to 30%, GMC to 40%, and Reserve Treasury to 30%.
 3. An amendment to [RPIP-46](RPIP-46.md) so that the Saturn 2 `rpl.inflation.interval.rate` target is 2.5% annual inflation rather than 1.5%.
 
