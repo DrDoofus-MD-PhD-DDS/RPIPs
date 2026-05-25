@@ -88,7 +88,7 @@ oDAO (rocketClaimTrustedNode):           0.025
 
 #### pDAO Allocation Implementation
 
-After the above changes are active, the pDAO allocation policy ([RPIP-10](./RPIP-10.md)) **SHALL** be modified and implemented as follows:
+After the above changes are enacted, the pDAO allocation policy ([RPIP-10](./RPIP-10.md)) **SHALL** be modified and implemented as follows:
 
 ```
 IMC = 30%
