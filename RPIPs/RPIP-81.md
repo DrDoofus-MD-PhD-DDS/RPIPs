@@ -121,12 +121,13 @@ This RPIP attempts to balance those risks by:
 
 This RPIP modifies RPL inflation allocation and therefore requires a 75% "For" supermajority under [RPIP-25](RPIP-25.md).
 
-Passage of this RPIP should be treated as authorization for three related governance actions:
+Passage of this RPIP should be treated as authorization for five related simultaneous governance actions:
 
 1. A pre-Saturn 2 on-chain pDAO proposal to change RPL claim percentages to 50% Node Operators, 47.5% pDAO, and 2.5% oDAO.
-2. An update to the pDAO allocation policy in [RPIP-10](RPIP-10.md) to set IMC to 30%, GMC to 40%, and Reserve Treasury to 30%.
-3. An amendment to [RPIP-46](RPIP-46.md) so that the Saturn 2 `rpl.inflation.interval.rate` target is 2.5% annual inflation rather than 1.5%.
-
+2. A pre-Saturn 2 on-chain pDAO proposal to change recurring IMC spend to reflect the increase to total pDAO allocation and a 30% share of it.
+3. A pre-Saturn 2 on-chain pDAO proposal to change recurring GMC spend to reflect the increase to total pDAO allocation and a 40% share of it.
+4. An update to the pDAO allocation policy in [RPIP-10](RPIP-10.md) to set IMC to 30%, GMC to 40%, and Reserve Treasury to 30%.
+5. An amendment to [RPIP-46](RPIP-46.md) so that the Saturn 2 `rpl.inflation.interval.rate` target is 2.5% annual inflation rather than 1.5%.
 This RPIP changes funding allocation and inflation policy. It does not approve any specific GMC grant, IMC incentive program, Reserve Treasury spend, or other individual expenditure.
 
 
