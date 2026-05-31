@@ -44,12 +44,12 @@ Before Saturn 2, 70% of RPL inflation is directed to Node Operator RPL rewards. 
   - Node Operators: 50%
   - pDAO: 47.5%
   - oDAO: 2.5%
-  - This may be proposed using the Smartnode CLI command: `rocketpool pdao propose rewards-percentages --node 0.5 --odao 0.025 --pdao 0.475`
-  - This on-chain proposal vote must be passed to implement the change from this vote
-- The pDAO internal allocation **SHALL** be adjusted and updated in [RPIP-10](RPIP-10.md)'s `Historical budget splits` section as follows:
+- The pDAO internal allocation **SHALL** be adjusted using the on-chain pDAO proposal system and updated in [RPIP-10](RPIP-10.md)'s `Historical budget splits` section as follows:
   - IMC: 30%
   - GMC: 40%
   - Reserve Treasury: 30%
+- The on-chain votes SHALL be started concurrently and  RPL values for the pDAO allocation SHALL be based on the reward percentages vote passing.
+-  All associated on-chain proposal votes must be passed to implement this proposal. 
 
 ### Post-Saturn 2
 
