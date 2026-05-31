@@ -60,7 +60,6 @@ Before Saturn 2, 70% of RPL inflation is directed to Node Operator RPL rewards. 
   - Node Operators: 0%
   - pDAO: 95%
   - oDAO: 5%
-  - This may be proposed using the Smartnode CLI command: `rocketpool pdao propose rewards-percentages --node 0 --odao 0.05 --pdao 0.95`
 
 ## Rationale
 
