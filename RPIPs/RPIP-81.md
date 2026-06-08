@@ -3,8 +3,8 @@ rpip: 81
 title: Rebalance RPL Inflation for Protocol Funding
 description: Increase the pDAO and GMC share of RPL inflation to support protocol funding.
 author: Dr Doofus (@DrDoofus-MD-PhD-DDS)
-discussions-to:
-status: Review
+discussions-to: https://dao.rocketpool.net/t/rebalance-rpl-inflation-for-protocol-funding-sentiment-poll/3949
+status: Final
 type: Protocol
 category: Core
 created: 2026-05-21
@@ -19,9 +19,9 @@ tags: [rpl-inflation, saturn-2, node-operator-percent, pdao-percent]
 
 This RPIP proposes rebalancing RPL inflation allocation to increase protocol funding during and after the Saturn 2 transition.
 
-Before Saturn 2, the current RPL inflation allocation is: Node Operators 70%, pDAO 27.5%, oDAO 2.5%. This RPIP would reduce the Node Operator share and increase pDAO share as follows: Node Operators 50%, pDAO 47.5%, oDAO 2.5% (unchanged).
+Before Saturn 2, the current RPL inflation allocation is: Node Operators 70%, pDAO 27.5%, oDAO 2.5%. This RPIP would reduce the Node Operator share and increase the pDAO share as follows: Node Operators 50%, pDAO 47.5%, oDAO 2.5% (unchanged).
  
-This RPIP also updates the current internal pDAO allocation ([RPIP-69](RPIP-69.md)) from: IMC 50%, GMC 25%, Reserve Treasury 25%, to IMC 30%, GMC 40%, Reserve Treasury 30%. Note that these are percentages of the new pDAO share of 47.5% rather than of the old 27.5%.
+This RPIP also updates the current internal pDAO allocation ([RPIP-69](RPIP-69.md)) from: IMC 50%, GMC 25%, Reserve Treasury 25% to IMC 30%, GMC 40%, Reserve Treasury 30%. Note that these are percentages of the new pDAO share of 47.5% rather than of the old 27.5%.
 
 This bolsters GMC RPL by about 10,000 RPL per cycle and approximately doubles reserve treasury share per cycle compared to previous allotment.
 
@@ -35,7 +35,7 @@ The decline in RPL price has greatly reduced the GMC’s funding capabilities. T
 
 The pDAO is increasingly asked to fund or help fund items such as support, rescue node costs, business development, Chainlink costs, Saturn 2 related work, Snapshot, and other worthy initiatives. Meanwhile, pDAO funding from megapools is not yet available at meaningful scale and it might be a long time before it becomes helpful at a meaningful level.
 
-Before Saturn 2, 70% of RPL inflation is directed to Node Operator RPL rewards. When Saturn 2 takes effect, those Node Operator RPL rewards will go away entirely. This RPIP proposes a phase out of those rewards pre-Saturn 2 by redirecting part of the current Node Operator RPL issuance to pDAO protocol funding immediately, and to preserve that funding after Saturn 2.
+Before Saturn 2, 70% of RPL inflation is directed to Node Operator RPL rewards. When Saturn 2 takes effect, those Node Operator RPL rewards will go away entirely. This RPIP proposes a phaseout of those rewards pre-Saturn 2 by redirecting part of the current Node Operator RPL issuance to pDAO protocol funding immediately and to preserve that funding after Saturn 2.
 
 ## Specification
 
@@ -48,8 +48,8 @@ Before Saturn 2, 70% of RPL inflation is directed to Node Operator RPL rewards. 
   - IMC: 30%
   - GMC: 40%
   - Reserve Treasury: 30%
-- The on-chain votes SHALL be started concurrently and  RPL values for the pDAO allocation SHALL be based on the reward percentages vote passing.
--  All associated on-chain proposal votes must be passed to implement this proposal. 
+- The on-chain votes SHALL be started concurrently and RPL values for the pDAO allocation SHALL be based on the reward percentages vote passing.
+- All associated on-chain proposal votes must be passed to implement this proposal. 
 
 ### Post-Saturn 2
 
@@ -106,7 +106,7 @@ This RPIP does not change ETH rewards, validator duties, minipool delegate behav
 The primary risks are economic, governance, and incentive risks:
 
 1. **Node Operator expectations:** Reducing Node Operator RPL issuance before Saturn 2 may be perceived as changing the expected transition for current minipool operators.
-2. **RPL value and sell pressure:** Increasing the pDAO share and preserving higher inflation than [RPIP-46](RPIP-46.md) currently specifies, may increase sell pressure if the additional RPL is spent quickly or inefficiently.
+2. **RPL value and sell pressure:** Increasing the pDAO share and preserving higher inflation than [RPIP-46](RPIP-46.md) currently specifies may increase sell pressure if the additional RPL is spent quickly or inefficiently.
 3. **Treasury discipline:** Larger pDAO, GMC, and Reserve Treasury inflows do not by themselves guarantee better outcomes. Poor budgeting or weak grant oversight could waste the additional issuance.
 4. **Underfunding risk:** If this RPIP does not pass and no alternative funding source is available, Rocket Pool may underfund support, operations, security related work, Saturn 2 work, contributor retention, and growth initiatives.
 
