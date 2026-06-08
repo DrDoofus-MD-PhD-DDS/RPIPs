@@ -1,5 +1,5 @@
 ---
-rpip:
+rpip: 83
 title: Increase Megapool Bond Requirements
 description: Increase bond requirement for megapools and reroute rewards to top-up bond while below bond curve.
 author: knoshua (@knoshua)
