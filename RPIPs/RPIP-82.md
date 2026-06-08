@@ -1,5 +1,5 @@
 ---
-rpip:
+rpip: 82
 title: Enable pDAO Spending of ETH and ERC-20
 description: Introduce pDAO proposals for one-time and recurring ETH and ERC-20 payments.
 author: knoshua (@knoshua)
