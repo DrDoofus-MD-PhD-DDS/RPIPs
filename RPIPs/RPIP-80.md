@@ -67,7 +67,7 @@ Since minipool delegates are opt-in, it is unrealistic to assume that all minipo
 3. Try to include all minipools for exits and penalize those that refuse to exit.
 
 Rocket Pool is in transition from minipools to megapools as the primary abstraction for new validators. Minipool deposits are already disabled and RPL tokenomics and commission policy are centered around megapools. As long as a large fraction of the backing set remains in minipools, protocol-level control over commission is constrained and every protocol change must account for both architectures, slowing down protocol development. 
-The first option ,therefore, appears counterproductive: directly, by reducing the number of megapool validators and indirectly, by making staying on minipools more attractive. 
+The first option, therefore, appears counterproductive: directly, by reducing the number of megapool validators and indirectly, by making staying on minipools more attractive. 
 The concern with the second option is that it would incentivize operators to deliberately avoid upgrading and potentially seek to disable the use-latest-delegate flag again in order to evade exits. This could lead to a very small set of minipools that support EL-triggered exits, which then would inherit the problems from the first option.
 That's why the proposal uses the third option. A penalty for failing to exit is intended to provide an economic incentive for protocol-aligned behavior, such as upgrading to the new delegate or responding to exit requests.
 
