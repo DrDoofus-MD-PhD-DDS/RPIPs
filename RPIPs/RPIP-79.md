@@ -49,7 +49,7 @@ The existing beacon state proof system remains in place and allows short-circuit
 We considered using the Beacon Chain deposit contract in a fraud-proof system instead of beacon state proofs. While generating proofs against the deposit contract may be more stable under future Ethereum hard forks, generating those fraud proofs would require storing every deposit ever made.
 
 ## Security Considerations
-A fraud proof only succeeds if another deposit with the same pubkey and a valid signature exists. Compared to the legacy oDAO scrub system and the beacon state proof system, the threat model is therefore essentially unchanged: an adversary who cannot sign as the validator cannot cause dissolution. The main caveat introduced by this proposal is that back-running with incorrect withdrawal credentials also leads to dissolution.
+A fraud proof only succeeds if another deposit with the same pubkey and a valid signature exists. Compared to the legacy oDAO scrub system and the beacon state proof system, the threat model is therefore essentially unchanged: an adversary who cannot sign as the validator cannot cause dissolution. The main caveat introduced by this proposal is that a deposit with valid signature and incorrect withdrawal credentials that happens after a correct first deposit also leads to dissolution.
 
 Incorrect implementation of the fraud-proof verifier could allow either false positives (dissolving honest validators) or false negatives (failing to detect prior valid deposits).
 
