@@ -192,6 +192,8 @@ roughly steady given the initial proposed inflation step.
 | 2022-08-09<br>(ratified 2022-08-24) | Incentives (e.g., LP bonuses) - 50%, Grants and Bounties - 30%, Reserve Treasury - 20%     |
 | 2023-07-17                          | Incentives (e.g., LP bonuses) - 27%, Grants and Bounties - 16%, Reserve Treasury - 57%     |
 | 2023-11-16                          | Incentives (e.g., LP bonuses) - 50%, Grants and Bounties - 20.5%, Reserve Treasury - 29.5% |
+| 2025-04-27                          | Incentives (e.g., LP bonuses) - 50%, Grants and Bounties - 25%, Reserve Treasury - 25% |
+| 2026-07-10                          | Incentives (e.g., LP bonuses) - 30%, Grants and Bounties - 40%, Reserve Treasury - 30% |
 
 ## pDAO Treasurer History
 

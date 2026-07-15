@@ -4,7 +4,7 @@ title: RPL Inflation Allocation
 description: Describes the planned usage of RPL inflation
 author: jasperthegovghost (@jasperthefriendlyghost), Valdorff (@Valdorff)
 discussions-to: https://dao.rocketpool.net/t/odao-charter-draft-and-more/1832
-status: Final
+status: Living
 type: Meta
 created: 2023-06-02
 vote-to: https://vote.rocketpool.net/#/proposal/0x510383ca82a0096fa670a260692cf7a4097e199ce4f731dc4efd97a21f19f988
@@ -80,6 +80,8 @@ update this RPIP:
 | Date         | Allocation                                                                                                      |
 |--------------|-----------------------------------------------------------------------------------------------------------------|
 | 2021-09-30   | Node Operators (`rocketClaimNode`) - 70%, pDAO (`rocketClaimDAO`) - 15%, oDAO (`rocketClaimTrustedNode`) - 15%  |
+| 2025-03-24   | Node Operators (`rocketClaimNode`) - 70%, pDAO (`rocketClaimDAO`) - 27.5%, oDAO (`rocketClaimTrustedNode`) - 2.5%  |
+| 2026-07-10   | Node Operators (`rocketClaimNode`) - 50%, pDAO (`rocketClaimDAO`) - 47.5%, oDAO (`rocketClaimTrustedNode`) - 2.5%  |
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
