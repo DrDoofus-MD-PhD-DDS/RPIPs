@@ -26,9 +26,9 @@ changes to how the funds should be directed.
 
 ## Specification
 - Incoming funds SHALL be tracked and apportioned per category with the following split:
-  - Incentives (e.g., LP bonuses) - 50%
-  - Grants and Bounties - 20.5%
-  - Reserve Treasury - 29.5%
+  - Incentives (e.g., LP bonuses) - 30%
+  - Grants and Bounties - 40%
+  - Reserve Treasury - 30%
 - Where a matching Management Committee exists (eg, the "Incentives Management Committee" for the "Incentives"
   category), incoming funds SHALL be disbursed to the matching Management Committee as quickly as practical.
   - When possible, automation SHOULD be used to facilitate and expedite disbursements.
