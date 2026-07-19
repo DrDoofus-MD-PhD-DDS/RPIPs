@@ -91,7 +91,7 @@ The following changes are ministerial and do not require an additional vote:
 
 | Platform   | Canonical location                       |            Effective date | Authorization |
 | ---------- | ---------------------------------------- | ------------------------: | ------------- |
-| RocketDash | `https://saturn-1.steely-test.org/vote`  | Upon passage of this RPIP | RPIP-TBD      |
+| RocketDash | `https://rocketdash.net/vote`  | Upon passage of this RPIP | RPIP-TBD      |
 
 ## Signalling Platform History
 
@@ -151,7 +151,7 @@ Voters would vote For, Against, Abstain, or Veto on that statement.
 
 The associated calldata would not contain coded messages or lookups to another website. Every Emergency Ballot System proposal would use the same standardized payload. Its only purpose is to allow the existing on-chain proposal lifecycle to complete without changing protocol settings or moving funds.
 
-Proposers should not need to construct this calldata manually. Smart node may implement the EBS workflow in any manner that reliably produces the required message and standardized payload, e.g., via a `rocketpool pdao propose emergency-signalling-platform-chan` command that simply takes a proposal message.
+Proposers should not need to construct this calldata manually. Smart node may implement the EBS workflow in any manner that reliably produces the required message and standardized payload, e.g., via a `rocketpool pdao propose emergency-signalling-platform-change` command that simply takes a proposal message.
 
 The platform change takes effect when the proposal becomes successful under the RPIP-33 voting process, rather than when its no-operation payload is executed. This prevents anyone from changing the order of overlapping EBS results by choosing when to execute them.
 
