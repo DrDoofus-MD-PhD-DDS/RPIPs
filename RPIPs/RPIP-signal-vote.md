@@ -7,12 +7,12 @@ discussions-to: TBD
 status: Living
 type: Meta
 created: 2026-07-18
-requires: 4, 33
+requires: RPIP-4, RPIP-33
 ---
 
 ## Abstract
 
-This RPIP establishes a platform independent framework for pDAO signalling votes and designates RocketDash as the initial Recognized Signalling Platform. The Recognized Signalling Platform is the system designated to conduct pDAO votes that are not conducted through the on-chain pDAO.
+This RPIP establishes a platform independent framework for pDAO signalling votes and designates RocketDash as the initial Recognized Signalling Platform. The Recognized Signalling Platform is the system designated to conduct pDAO votes that are not conducted on-chain.
 
 It also creates an on-chain Emergency Ballot System (EBS) for changing the Recognized Signalling Platform when the existing platform is unavailable or no longer trusted and establishes a public registry of authorized vote publishers.
 
