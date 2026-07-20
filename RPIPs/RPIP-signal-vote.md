@@ -44,7 +44,7 @@ RPIP-4 also permits Darren Langley or a party he entrusts to publish votes, but 
 
 ### Changing the Recognized Signalling Platform
 
-* The pDAO MAY change the Recognized Signalling Platform through a vote conducted on the current Recognized Signalling Platform.
+* The pDAO SHALL have the ability to change the Recognized Signalling Platform through a vote conducted on the current Recognized Signalling Platform.
 * A successful platform-change vote MAY also appoint a Lead Vote Administrator or Authorized Vote Publishers for the replacement platform.
 * Following a successful vote, the current platform and historical record in this RPIP SHALL be updated without an additional vote.
 
