@@ -4,7 +4,7 @@ title: pDAO Signaling Governance
 description: Establish a platform independent signaling process, adopt RocketDash, and provide an emergency method for changing signaling platforms.
 author: Dr Doofus (@DrDoofus-MD-PhD-DDS)
 discussions-to: TBD
-status: Living
+status: Draft
 type: Meta
 created: 2026-07-18
 requires: RPIP-4, RPIP-33
@@ -37,7 +37,7 @@ RPIP-4 also permits Darren Langley or a party he entrusts to publish votes, but 
 
 ### Vote Administration
 
-* The **Lead Vote Administrator** SHALL be Darren Langley (`langers`).
+* The initial **Lead Vote Administrator** under this RPIP SHALL be Darren Langley (`langers`).
 * The Lead Vote Administrator MAY appoint or remove **Authorized Vote Publishers** without a pDAO vote.
 * Appointments and removals MUST be publicly announced and recorded in the Vote Publisher History.
 * Only the Lead Vote Administrator and current Authorized Vote Publishers MAY publish official votes on the Recognized Signaling Platform.
@@ -64,14 +64,14 @@ RPIP-4 also permits Darren Langley or a party he entrusts to publish votes, but 
   * any proposed changes to vote administration;
   * related public discussion on the forum.
 * Emergency Signaling Platform Change proposals:
-  * SHALL require a sentiment poll, but
+  * SHALL require a forum sentiment poll, but
   * SHALL NOT require a separate signaling vote.
 * The proposal SHALL use a standardized no-operation payload that changes no protocol parameter, spends no treasury funds, and performs no Security Council action.
 * Tooling (preferably Smart node) SHALL provide a method to create an Emergency Signaling Platform Change proposal with the required message.
 * The proposal SHALL use the existing RPIP-33 voting process and passing criteria.
-* When the proposal becomes successful under the RPIP-33 voting process, the platform to be replaced MUST match the Recognized Signaling Platform then in effect. If it matches, the proposed platform and vote administration changes SHALL take effect; otherwise, the proposal SHALL have no governance effect.
+* An Emergency Signalling Platform Change proposal SHALL be considered passed when, at the end of the RPIP-33 voting process, it is not vetoed, has met quorum, has more voting power For than Against, and the platform to be replaced matches the Recognized Signaling Platform.
+* A passing proposal SHALL take governance effect at the end of voting. Later execution or expiration of its no-operation payload SHALL NOT alter that effect.
 * If multiple Emergency Signaling Platform Change proposals become successful in the same block, they SHALL be applied in ascending proposal ID order.
-* Execution or expiration of the no-operation payload SHALL NOT alter the governance effect of the proposal.
 * Following a successful platform change, this RPIP SHALL be updated without an additional vote.
 
 ### Updating This RPIP
@@ -83,6 +83,7 @@ Substantive changes to the signaling process, platform change process, Emergency
 The following changes are ministerial and do not require an additional vote:
 
 * recording a platform change already approved by the pDAO;
+* recording a change to the Lead Vote Administrator already approved by pDAO vote;
 * recording the appointment or removal of an Authorized Vote Publisher;
 * adding an end date to a historical entry;
 * correcting platform URLs, account identifiers, or other non-substantive administrative information.
