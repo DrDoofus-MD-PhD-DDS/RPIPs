@@ -18,7 +18,7 @@ It also creates an on-chain Emergency Ballot System (EBS) for changing the Recog
 
 ## Motivation
 
-[RPIP-4](RPIP-4.md) established Snapshot as the platform for Rocket Pool governance votes. Snapshot now costs approximately $600 per month. Rocket Pool currently manages this expense by activating and deactivating the service around scheduled votes.
+[RPIP-4](RPIP-4.md) established Snapshot as the platform for Rocket Pool governance votes. Increasing Snapshot costs make it no longer cost effective. Rocket Pool currently manages this by activating and deactivating the service around scheduled votes.
 
 The long term intention is for the on-chain pDAO system to support additional forms of governance. Until that work is complete, RocketDash provides a community developed alternative for conducting signaling votes.
 
