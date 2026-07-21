@@ -1,5 +1,5 @@
 ---
-rpip: TBD
+rpip: 84
 title: pDAO Signaling Governance
 description: Establish a platform independent signaling process, adopt RocketDash, and provide an emergency method for changing signaling platforms.
 author: Dr Doofus (@DrDoofus-MD-PhD-DDS)
